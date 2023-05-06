@@ -154,7 +154,8 @@ button:hover {
 
 /*Media Queries*/
 
-@media screen and (min-width: 280px) and (max-width: 600px) {
+
+@media screen and (min-width: 280px) and (max-width: 480px){
     #main-container {
         height: 140vh;
     }
@@ -167,30 +168,44 @@ button:hover {
     #letters-categories {
         display: flex;
     }
+
+    .keys-touch button {
+        height: 40px;
+        width: 40px;
+    }
 }
 
-@media screen and (min-width: 601px) {
+    .footer-container h2 {
+        text-align: center;
+        padding-top: 30px;
+        font-size: 1em;
+        height: 100px;
+        width: 70%;
+}
+
+    .social-medias {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 20px;
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px){
     #main-container{
-        height: 90vh;
+        height: 80vh;
         width: 90%;
     }
 
-    .key-touch button {
-        width: 20px;
-        height: 20px;
+    .keys-touch button {
+        height: 40px;
+        width: 40px;
     }
 }
 
-@media only screen and (min-width: 801px) and (max-width: 1180px){
-    #main-container {
-        width: 80%;
+@media screen and (min-width: 769px) and (max-width: 1024px){
+    #main-container{
         height: 60vh;
-    }  
-}
-
-@media only screen and (max-width: 1200px){
-    #main-container {
-        height: 60vh;
+        width: 90%;
     }
-
 }
+
+
