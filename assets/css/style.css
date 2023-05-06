@@ -151,3 +151,46 @@ button:hover {
     margin: auto;
     border-radius: 20px;
 }
+
+/*Media Queries*/
+
+@media screen and (min-width: 280px) and (max-width: 600px) {
+    #main-container {
+        height: 140vh;
+    }
+
+    .letter {
+        width: 30px;
+        margin: 20px;
+    }
+
+    #letters-categories {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 601px) {
+    #main-container{
+        height: 90vh;
+        width: 90%;
+    }
+
+    .key-touch button {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 1180px){
+    #main-container {
+        width: 80%;
+        height: 60vh;
+    }  
+}
+
+@media only screen and (max-width: 1200px){
+    #main-container {
+        height: 60vh;
+    }
+
+}
