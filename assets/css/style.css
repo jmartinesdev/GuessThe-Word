@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&family=Shadows+Into+Light&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #83e1ad;    
+    
+}
+
+:root {
+    --font: 'Shadows Into Light', cursive;
+    --font01: 'Lato', sans-serif;
+    --cor01: #83e1ad;
+    --cor02: #4c36ca98;
+    --cor03: #3ddc84;
+    --cor04: #2fa866;
+    --cor05: #1a5c37;
+    --cor06: #063d1e;
+}
+
+header {
+    text-align: center;
+    font-family: var(--font);
+    color: var(--cor06);
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 0.5rem;
+    margin-top: 4rem;
+}
+
+#main-container {
+    width: 70%;
+    height: 80vh;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color: #2fa866;
+    margin-top: 4rem;
+    margin-bottom: 40px;
+}
+
+#categories {
+    width: 100%;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-family: var(--font);
+    font-size: 2.5rem;
+    color: var(--cor06);
+    text-align: center;
+    padding: 40px;
+}
+
+#letters-categories {
+    display: flex;
+    justify-content: center;
+    font-family: var(--font01);
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: var(--font);
+    font-size: 2.5rem;
+    color: var(--cor01);
+}
+
+.letter {
+    border-bottom: 3px solid var(--cor01);
+    width: 40px;
+    margin: 20px;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+#keyboard {
+    width: 100%;
+    height: 30vh;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.keys-touch button {
+    height: 55px;
+    width: 55px;
+    cursor: pointer;
+    font-family: var(--font);
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin: 5px;
+    border-radius: 8px;
+    border: 2px solid var(--cor01);
+    color: var(--cor05);
+    box-shadow: 1px 1px #2fa866;
+}
+
+button:hover {
+    transform: scale(1.5);
+}
+
+.teclas button:disabled{
+    cursor: not-allowed;
+}
+
+#btn-replay {
+    font-size: 15px;
+}
+
+.footer-container {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+
+#footer-flex div {
+    padding: 10px;
+    width: 30%;
+}
+
+.social-medias>li {
+    display: inline;
+    list-style: none;
+    padding: 0 40px;
+}
+
+.social-medias i {
+    color: var(--cor06);
+    justify-content: space-between;
+    font-size: 25px;
+    padding-top: 60px;
+}
+
+#footer-flex h2 {
+    font-size: 28px;
+    letter-spacing: 4px;
+}
+
+#footer-flex p {
+    text-align: center;
+    color: var(--cor05);
+    line-height: 40px;
+}
+
+.dev-footer {
+    font-family: var(--font);
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+    height: 30px;
+    width: 70%;
+    background-color: #2fa866;
+    margin: auto;
+    border-radius: 20px;
+}

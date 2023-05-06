@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Guess Word Game</title>
+</head>
+<body>
+    <header>
+        <h1>Guess Word Game</h1>
+    </header>
+    
+    <main>
+        <div id="main-container">
+            <div id="categories">
+                <h2>Categories</h2>
+            </div>
+            <div id="keyboard">
+                <div class="keys-touch">
+                    <button id="letter-A" onclick="letterSelect('A')">A</button>
+                    <button id="letter-B" onclick="letterSelect('B')">B</button>
+                    <button id="letter-C" onclick="letterSelect('C')">C</button>
+                    <button id="letter-D" onclick="letterSelect('D')">D</button>
+                    <button id="letter-E" onclick="letterSelect('E')">E</button>
+                    <button id="letter-F" onclick="letterSelect('F')">F</button>
+                    <button id="letter-G" onclick="letterSelect('G')">G</button>
+                    <button id="letter-H" onclick="letterSelect('H')">H</button>
+                    <button id="letter-I" onclick="letterSelect('I')">I</button>
+                </div>
+                <div class="keys-touch">
+                    <button id="letter-J" onclick="letterSelect('J')">J</button>
+                    <button id="letter-K" onclick="letterSelect('K')">K</button>
+                    <button id="letter-L" onclick="letterSelect('L')">L</button>
+                    <button id="letter-M" onclick="letterSelect('M')">M</button>
+                    <button id="letter-N" onclick="letterSelect('N')">N</button>
+                    <button id="letter-O" onclick="letterSelect('O')">O</button>
+                    <button id="letter-P" onclick="letterSelect('P')">P</button>
+                    <button id="letter-Q" onclick="letterSelect('Q')">Q</button>
+                    <button id="letter-R" onclick="letterSelect('R')">R</button>
+                </div>
+                <div class="keys-touch">
+                    <button id="letter-S" onclick="letterSelect('S')">S</button>
+                    <button id="letter-T" onclick="letterSelect('T')">T</button>
+                    <button id="letter-U" onclick="letterSelect('U')">U</button>
+                    <button id="letter-V" onclick="letterSelect('V')">V</button>
+                    <button id="letter-W" onclick="letterSelect('W')">W</button>
+                    <button id="letter-X" onclick="letterSelect('X')">X</button>
+                    <button id="letter-Y" onclick="letterSelect('Y')">Y</button>
+                    <button id="letter-Z" onclick="letterSelect('Z')">Z</button>
+                    <button id="btn-replay">Replay</button>
+                </div>
+                <div id="letters-categories">
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel"></h4>
+                </div>
+                <div class="modal-body" id="modalBody">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9d321cd623.js" crossorigin="anonymous"></script>
+
+    <div class="footer-container">
+        <h2 class="dev-footer">Desenvolvido por: Jakeline Martines</h2>
+        <ul class="social-medias">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Twitter (open in a new tab)"><i
+                        class="fa-brands fa-facebook-f"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Twitter (open in a new tab)"><i
+                        class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/" target="_blank" rel="noopener" aria-label="Twitter (open in a new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
