@@ -55,7 +55,7 @@ The website has been tested using the following methods:
 - [W3C HTML Validator](#w3c-html-validator) 
 
 - [W3C CSS Validator](#w3c-css-validator)
-- [Lighthouse](#lighthouse)
+- [JavaScript](#javascript)
 - [Responsiveness](#responsiveness)
 
 ## W3C HTML Validator
@@ -64,14 +64,48 @@ The website passed all tests using the W3C HTML Validator tool
 
 ### Home Page
 
-![W3C HTML Validator](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/html%20testing.png)
+![W3C HTML Validator](https://github.com/jmartinesdev/GuessThe-Word/blob/main/html%20validator.png)
 
 ## W3C CSS Validator
 
 The website passed all tests using the W3C CSS Validator tool
 
-![W3C CSS Validator](https://github.com/jmartinesdev/sisterhood-gym/blob/main/media/CSS%20testing.png)
+![W3C CSS Validator](https://github.com/jmartinesdev/GuessThe-Word/blob/main/css%20validator.png)
 
+## JS Validator
+
+The website passed all tests using the Extend Class Validator tool
+
+![Javascript Validator](https://github.com/jmartinesdev/GuessThe-Word/blob/main/js%20validator.png)
+
+# Responsiveness
+
+To test each responsive screen size, google tools were used, with the devices available, these are:
+
+- iPhone SE
+- iPhone XR
+- iPhone 12 Pro
+- Pixel 5
+- Samsung Galaxy S8+
+- Samsung Galaxy S20 Ultra
+- iPad Mini
+- iPad Air
+- Surface Pro 7
+- Surface Duo
+- Galaxy Fold
+- Samsung Galaxy A51/71
+- Nest Hub
+- Nest Hub Max
+
+# Browser Compatibility
+
+The site was tested in Google Chrome, Microsoft Edge and Safari on desktop.
+
+The site was tested in Google Chrome, Microsoft Edge, and Mozilla Firefox on the desktop. No issues arose during browser testing.  
+
+Appearance, functionality, and responsiveness were largely consistent across browsers. Exceptions include:
+
+- The font appearance completely changes on the safari desktop. I researched this and found this is a common experience. However, on my opinion suits it well, and I did not make any changes.
 
 ## Technology Used
 
