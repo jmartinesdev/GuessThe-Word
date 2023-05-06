@@ -129,11 +129,11 @@ Here mention what technologies you've used for example
 - From the source section drop-down menu, select the Main Branch.
 - Once the main branch has been selected, the page will refresh and provide a link to the live project. 
 
-The live link can be found here - https://jmartinesdev.github.io/sisterhood-gym/
+The live link can be found here - https://jmartinesdev.github.io/GuessThe-Word/
 
 # Languages
 
-- The coding languages used to create this site were HTML and CSS.
+- The coding languages used to create this site were HTML, CSS and Javascript.
 
 # **Credits** 
 
