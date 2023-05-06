@@ -6,3 +6,4 @@ As letters are correct the word will be created on the screen, until the player 
 
 The user will have 5 chances, if he misses the word, he loses! And a modal appears on the screen and he will have a chance to restart the game for one more chance.
  
+![Responsiveness Screenshot](https://github.com/jmartinesdev/GuessThe-Word/blob/main/AmIresponsive.png)
