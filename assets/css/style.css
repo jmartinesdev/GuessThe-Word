@@ -157,12 +157,14 @@ button:hover {
 
 @media screen and (min-width: 320px) and (max-width: 480px){
     #main-container {
-        height: 140vh;
+        height: 120vh;
     }
 
     .letter {
         width: 30px;
-        margin: 20px;
+        margin-top: 20px;
+        border-bottom: 2px solid --cor01;
+        margin: 10px;
     }
 
     #letters-categories {
@@ -170,10 +172,10 @@ button:hover {
     }
 
     .keys-touch button {
-        height: 40px;
-        width: 40px;
+        height: 30px;
+        width: 30px;
+        font-size: 10px;
     }
-}
 
     .footer-container h2 {
         text-align: center;
@@ -181,12 +183,17 @@ button:hover {
         font-size: 1em;
         height: 100px;
         width: 70%;
-}
-
+    }
     .social-medias {
         display: flex;
         justify-content: space-evenly;
         padding: 20px;
+    }
+
+    #btn-replay {
+        font-size: 8px;
+        text-align: center ;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px){
