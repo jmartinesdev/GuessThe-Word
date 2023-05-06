@@ -14,7 +14,7 @@ The user will have 5 chances, if he misses the word, he loses! And a modal appea
 
 # UX (User Experencie)
 
-##Project Goals
+## Project Goals
 
 The aim of the project is to make it a simple and intuitive site for children and teenagers who are starting to get in touch with web games.
 
