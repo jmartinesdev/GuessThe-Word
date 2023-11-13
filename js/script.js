@@ -178,6 +178,7 @@ let words = [
     }
 ];
 
+// finds the word
 findTheWord();
 function findTheWord(){
     let indexWords = parseInt(Math.random() * words.length);
@@ -186,6 +187,7 @@ function findTheWord(){
     wordsCategories = words[indexWords].categories;
 }
 
+// shows the word on screen
 screenWord();
 function screenWord() {
     let categorie = document.getElementById("categories");
@@ -206,6 +208,7 @@ function screenWord() {
     }
 }
 
+// select a letter
 function letterSelect(letter01){
     if(chances > 0)
     {
@@ -217,11 +220,13 @@ function letterSelect(letter01){
 
 }
 
+// sets the letter style
 function letterStyle(letter01){
     document.getElementById(letter01).style.background = "#063d1e";
     document.getElementById(letter01).style.color = "#ffffff";
 }
 
+// check the list
 checkList('letter01');
 function checkList(letter01){
     let position = wordsLetter.indexOf(letter01);
@@ -257,6 +262,7 @@ function checkList(letter01){
 
     }
 
+// open the modal
 function modalOpen(label, text){
     let modalLabel = document.getElementById("myModalLabel")
     modalLabel.innerText = label;
