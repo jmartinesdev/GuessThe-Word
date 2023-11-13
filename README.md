@@ -6,7 +6,7 @@ As letters are correct the word will be created on the screen, until the player 
 
 The user will have 5 chances, if he misses the word, he loses! And a modal appears on the screen and he will have a chance to restart the game for one more chance.
  
-![Responsiveness Screenshot](https://github.com/jmartinesdev/GuessThe-Word/blob/main/AmIresponsive.png)
+![Responsiveness Screenshot](https://github.com/jmartinesdev/GuessThe-Word/blob/main/docs/images/amIresponsive.png)
 
 ## **Target Audiences**
 
@@ -64,19 +64,19 @@ The website passed all tests using the W3C HTML Validator tool
 
 ### Home Page
 
-![W3C HTML Validator](https://github.com/jmartinesdev/GuessThe-Word/blob/main/html%20validator.png)
+![W3C HTML Validator](https://github.com/jmartinesdev/GuessThe-Word/blob/main/docs/images/html%20validator.png)
 
 ## W3C CSS Validator
 
 The website passed all tests using the W3C CSS Validator tool
 
-![W3C CSS Validator](https://github.com/jmartinesdev/GuessThe-Word/blob/main/css%20validator.png)
+![W3C CSS Validator](https://github.com/jmartinesdev/GuessThe-Word/blob/main/docs/images/css%20validator.png)
 
 ## JS Validator
 
 The website passed all tests using the Extend Class Validator tool
 
-![Javascript Validator](https://github.com/jmartinesdev/GuessThe-Word/blob/main/js%20validator.png)
+![Javascript Validator](https://github.com/jmartinesdev/GuessThe-Word/blob/main/docs/images/js%20validator.png)
 
 # Responsiveness
 
