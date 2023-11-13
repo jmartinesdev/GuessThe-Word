@@ -184,11 +184,7 @@ function findTheWord(){
 
     wordsLetter = words[indexWords].letter;
     wordsCategories = words[indexWords].categories;
-    console.log(wordsLetter);
-    console.log(wordsCategories);
 }
-
-console.log([words]);
 
 screenWord();
 function screenWord() {
